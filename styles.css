@@ -47,12 +47,21 @@ section {
 }
 #about{
     background-color: aqua;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: capitalize;
 }
 #skills{
     background-color: bisque;
+    color: rebeccapurple;
 }
 #projects{
     background-color: beige;
+}
+#projects h2{
+    text-shadow: hotpink 2px 2px 3px;
+}
+#projects a{
+    color: chartreuse;
 }
 .about-content {
     display: flex;
@@ -63,6 +72,9 @@ section {
     margin-right: 20px; 
     width: 150px;
     height: 150px;
+}
+.project{
+    cursor: wait;
 }
 
 footer {
